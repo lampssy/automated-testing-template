@@ -2,10 +2,10 @@ import pytest
 
 
 @pytest.fixture
-def capture_stdout(monkeypatch):
+def fixture(monkeypatch):
     pass
 
 
 @pytest.fixture(scope="session")
-def db_conn():
+def fixture_scoped():
     pass
