@@ -22,6 +22,5 @@ def test_divide_by_zero():
 
 
 @pytest.mark.xfail
-def test_db_slap(db_conn):
-    db_conn.read_slaps()
+def test_db_slap(pytest_fixture):
     assert ...
