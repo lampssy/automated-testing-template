@@ -2,10 +2,10 @@ import pytest
 
 
 @pytest.fixture
-def fixture(monkeypatch):
+def pytest_fixture(monkeypatch):
     pass
 
 
 @pytest.fixture(scope="session")
-def fixture_scoped():
+def pytest_fixture_scoped():
     pass
