@@ -1,4 +1,8 @@
-def main():
+def fun(txt: str) -> int:
+    return 0
+
+
+def main() -> None:
     pass
 
 
