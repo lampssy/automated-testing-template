@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REPO_SETUP_TOKEN: ${{ secrets.REPO_SETUP_TOKEN }}
+      CI: false
     steps:
       - name: Do not run scaffolding on template repository
         shell: bash
