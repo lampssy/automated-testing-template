@@ -224,6 +224,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/{{cookiecutter.user_name}}/{{cookiecutter.repo_name}}/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/awownysz
-[tests-shield]: actions/workflows/tests.yml/badge.svg
-[tests-url]: actions/workflows/tests
+[tests-shield]: https://github.com/{{cookiecutter.user_name}}/{{cookiecutter.repo_name}}/actions/workflows/tests.yml/badge.svg
+[tests-url]: https://github.com/{{cookiecutter.user_name}}/{{cookiecutter.repo_name}}/actions/workflows/tests
 [product-screenshot]: images/screenshot.png
