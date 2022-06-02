@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    if: github.repository != 'automated-testing-template'
+    if: github.repository != 'lampssy/automated-testing-template'
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
