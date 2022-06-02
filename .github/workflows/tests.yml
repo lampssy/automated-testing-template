@@ -28,3 +28,13 @@ jobs:
 
       - name: Test with tox
         run: tox
+      
+  blank:
+    if: github.repository != 'lampssy/automated-testing-template'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: echo Skipped testing, this is a template repo!
