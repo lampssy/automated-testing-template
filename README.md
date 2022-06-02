@@ -28,8 +28,7 @@
   <h3 align="center">Project template adapted to automated testing</h3>
 
   <p align="center">
-    - automating new repository setup with cookiecutter <br />
-    - automating pytest tests 
+    GitHub Actions used for automating pytest tests and setting up a new repository with cookiecutter.
   </p>
 </div>
 
