@@ -21,7 +21,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lampssy/automated-testing-template">
+  <a href="https://github.com/lampssy/{{cookiecutter.repo_name}}">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -186,7 +186,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/lampssy/automated-testing-template](https://github.com/lampssy/automated-testing-template)
+Project Link: [https://github.com/lampssy/{{cookiecutter.repo_name}}](https://github.com/lampssy/{{cookiecutter.repo_name}})
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -212,18 +212,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/lampssy/automated-testing-template.svg?
-[contributors-url]: https://github.com/lampssy/automated-testing-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lampssy/automated-testing-template.svg?
-[forks-url]: https://github.com/lampssy/automated-testing-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/lampssy/automated-testing-template.svg?
-[stars-url]: https://github.com/lampssy/automated-testing-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lampssy/automated-testing-template.svg?
-[issues-url]: https://github.com/lampssy/automated-testing-template/issues
-[license-shield]: https://img.shields.io/github/license/lampssy/automated-testing-template.svg?
-[license-url]: https://github.com/lampssy/automated-testing-template/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/lampssy/{{cookiecutter.repo_name}}.svg?
+[contributors-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lampssy/{{cookiecutter.repo_name}}.svg?
+[forks-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/network/members
+[stars-shield]: https://img.shields.io/github/stars/lampssy/{{cookiecutter.repo_name}}.svg?
+[stars-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lampssy/{{cookiecutter.repo_name}}.svg?
+[issues-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/issues
+[license-shield]: https://img.shields.io/github/license/lampssy/{{cookiecutter.repo_name}}.svg?
+[license-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/awownysz
-[tests-shield]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml/badge.svg
-[tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests
+[tests-shield]: https://github.com/lampssy/{{cookiecutter.repo_name}}/actions/workflows/tests.yml/badge.svg
+[tests-url]: https://github.com/lampssy/{{cookiecutter.repo_name}}/actions/workflows/tests
 [product-screenshot]: images/screenshot.png
