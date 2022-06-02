@@ -30,7 +30,7 @@ jobs:
         run: tox
       
   blank:
-    if: github.repository != 'lampssy/automated-testing-template'
+    if: github.repository == 'lampssy/automated-testing-template'
     runs-on: ubuntu-latest
 
     steps:
