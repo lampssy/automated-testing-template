@@ -28,7 +28,7 @@
   <h3 align="center">Project template adapted to automated testing</h3>
 
   <p align="center">
-    GitHub Actions used for automating pytest tests and setting up a new repository with cookiecutter.
+    GitHub Actions used for checking code style (mypy, flake8), testing (pytest, tox) and setting up a new repository (cookiecutter).
   </p>
 </div>
 
