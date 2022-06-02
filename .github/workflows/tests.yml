@@ -5,9 +5,13 @@ on:
   - pull_request
 
 jobs:
-  setup:
-    name: Reinitialize repository
-    runs-on: ubuntu-latest
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.6', '3.7', '3.8', '3.9', '3.10']
+
     steps:
       - name: Do not run scaffolding on template repository
         shell: bash
@@ -23,15 +27,7 @@ jobs:
             -H "Accept: application/vnd.github.baptiste-preview+json" \
             https://api.github.com/repos/$GITHUB_REPOSITORY \
             | jq --exit-status '.is_template == true';
-
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-        python-version: ['3.6', '3.7', '3.8', '3.9', '3.10']
-
-    steps:
+            
       - uses: actions/checkout@v2
 
       - name: Set up Python ${{ matrix.python-version }}
