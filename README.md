@@ -14,8 +14,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![Tests](https://img.shields.io/appveyor/tests/lampssy/automated-testing-template?compact_message)
-<!-- https://img.shields.io/appveyor/tests/lampssy/automated-testing-template?compact_message --> 
+[![Tests][tests-shield]][tests-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -236,4 +236,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[tests-shield]: https://img.shields.io/appveyor/tests/lampssy/automated-testing-template?compact_message
+[tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml/badge.svg
 
