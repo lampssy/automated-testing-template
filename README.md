@@ -67,13 +67,15 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Automated new project setup using GitHub Actions. <br />
+Automated new project setup using GitHub Actions.
+<br />
 
 GitHub Actions execute:
 * `cookiectter` for setting up the new repository
 * `flake8` and `mypy` to check code styling
 * `pytest` for testing
-* `tox` for running tests in various environments <br />
+* `tox` for running tests in various environments
+* <br />
 
 Steps to set up the project:
 1. Click the big green button `Use this template` or click <a href="../../generate">here</a>.
