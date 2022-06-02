@@ -233,8 +233,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/lampssy/automated-testing-template.svg?
 [license-url]: https://github.com/lampssy/automated-testing-template/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/awownysz
 [product-screenshot]: images/screenshot.png
 [tests-shield]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml/badge.svg
 [tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests
