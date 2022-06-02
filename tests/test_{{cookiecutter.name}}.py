@@ -2,6 +2,9 @@ import pytest
 from {{cookiecutter.name}}.{{cookiecutter.name}} import func
 
 
+def test_pass():
+    pass
+
 @pytest.mark.parametrize("test_input,expected", [
     ('test', 0)
 ])
