@@ -237,5 +237,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [tests-shield]: https://img.shields.io/appveyor/tests/lampssy/automated-testing-template?compact_message
-[tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml
+[tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests
 
