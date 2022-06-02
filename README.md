@@ -14,7 +14,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Tests][tests-shield]][tests-url]
+![Tests](https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml/badge.svg)
 
 
 
