@@ -28,8 +28,8 @@
   <h3 align="center">Project template adapted to automated testing</h3>
 
   <p align="center">
-    A starter project using GitHub Actions for:
-    - automating pytest tests
+    A starter project using GitHub Actions for: <br />
+    - automating pytest tests <br />
     - automating new repository setup with cookiecutter
   </p>
 </div>
