@@ -8,9 +8,6 @@ jobs:
   setup:
     name: Reinitialize repository
     runs-on: ubuntu-latest
-    env:
-      REPO_SETUP_TOKEN: ${{ secrets.REPO_SETUP_TOKEN }}
-      CI: false
     steps:
       - name: Do not run scaffolding on template repository
         shell: bash
@@ -26,15 +23,6 @@ jobs:
             -H "Accept: application/vnd.github.baptiste-preview+json" \
             https://api.github.com/repos/$GITHUB_REPOSITORY \
             | jq --exit-status '.is_template == false';
-      - uses: actions/checkout@v2
-        with:
-          # Comminting workflow files using the regular GITHUB_TOKEN will fail with 
-          # `Git Error: Refusing to allow a GitHub App to create or update workflow without workflows permission`.
-          # This is by design to prevent third-parties from adding malicious workflow files.
-          #
-          # Generate a new personal access token with the workflow `scope` does the trick.
-          # Checkout my blog post https://stefanbuck.com/blog for alternative options
-          token: ${{ env.REPO_SETUP_TOKEN || secrets.GITHUB_TOKEN }}
 
   test:
     runs-on: ${{ matrix.os }}
