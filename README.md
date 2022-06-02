@@ -67,7 +67,20 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Describe yor project here.
+Project template adapted for automated testing in Python.
+
+GitHub Actions use:
+* `cookiectter` for setting up the new repository
+* `flake8` and `mypy` to check code styling
+* `pytest` for testing
+* `tox` for running tests in various environments
+
+1. Click the big green button `Use this template` or click <a href="../../generate">here</a>.
+2. Enter a Repository name and click `Create repository from template`
+3. In the a new repository, <a href="../../edit/main/cookiecutter.json">complete the project setup</a> by editing the `cookiecutter.json` file. 
+4. Hit <kbd>cmd</kbd> + <kbd>S</kbd> and then <kbd>Enter</kbd> to perform a commit (the commit message doesn't really matter).
+5. Wait <a href="../../actions">Setup Repository Action</a> to complete.
+6. That's it, easy isn't it?
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
