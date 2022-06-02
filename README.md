@@ -25,10 +25,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Project template adapted to automated testing</h3>
+  <h3 align="center">{{cookiecutter.name}}</h3>
 
   <p align="center">
-    GitHub Actions used for checking code style (mypy, flake8), testing (pytest, tox) and setting up a new repository (cookiecutter).
+    {{cookiecutter.description}}
   </p>
 </div>
 
