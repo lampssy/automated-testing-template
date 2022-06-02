@@ -67,9 +67,9 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Project template adapted for automated testing in Python, using GitHub Actions.
+Automated new project setup using GitHub Actions.
 
-GitHub Actions use:
+GitHub Actions execute:
 * `cookiectter` for setting up the new repository
 * `flake8` and `mypy` to check code styling
 * `pytest` for testing
