@@ -5,6 +5,7 @@ on:
       - cookiecutter.json
 jobs:
   setup:
+    if: github.repository != 'lampssy/automated-testing-template'
     name: Reinitialize repository
     runs-on: ubuntu-latest
     env:
