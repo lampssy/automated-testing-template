@@ -1,5 +1,5 @@
 import pytest
-from PACKAGE_NAME.PACKAGE_NAME import func
+from {{cookiecutter.name}}.{{cookiecutter.name}} import func
 
 
 @pytest.mark.parametrize("test_input,expected", [
