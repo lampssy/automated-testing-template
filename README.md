@@ -223,19 +223,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[contributors-shield]: https://img.shields.io/github/contributors/lampssy/automated-testing-template.svg?
+[contributors-url]: https://github.com/lampssy/automated-testing-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lampssy/automated-testing-template.svg?
+[forks-url]: https://github.com/lampssy/automated-testing-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/lampssy/automated-testing-template.svg?
+[stars-url]: https://github.com/lampssy/automated-testing-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lampssy/automated-testing-template.svg?
+[issues-url]: https://github.com/lampssy/automated-testing-template/issues
 [license-shield]: https://img.shields.io/github/license/lampssy/automated-testing-template.svg?
 [license-url]: https://github.com/lampssy/automated-testing-template/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/awownysz
-[product-screenshot]: images/screenshot.png
 [tests-shield]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests.yml/badge.svg
 [tests-url]: https://github.com/lampssy/automated-testing-template/actions/workflows/tests
-
+[product-screenshot]: images/screenshot.png
